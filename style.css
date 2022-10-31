@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #a7bfd5;
+
+}
+
+#wrapper{
+    width: 28%;
+    height: 67vh;
+    background-color: white;
+    margin: 7.5rem auto;
+    display: grid;
+    grid-template-rows: 4.5rem 1fr;
+}
+
+#name{
+    width: 100%;
+    background-color: #6a96d8;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+    gap: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#chat{
+    width: 100%;
+    height: 3rem;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.ball{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.flex-grow{
+    flex-grow: 1;
+}
+
+.date{
+    margin: 1rem auto;
+    display: flex;
+}
+
+.line{
+    height: 0.1rem;
+    width: 11rem;
+    background-color: #b4b3b3;
+    margin: 0.5rem;
+}
+
+.date h4{
+    color: #b4b3b3;
+}
+
+.cht1{
+    margin: 1rem;
+}
+
+.cht1 p{
+    color: #9f9e9e;
+}
+
+.cht1 h4{
+    width: 70%;
+    height: 4rem;
+    background-color: #d1dcea;
+    margin: 0.5rem;
+    padding: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cht2{
+    display: flex;
+    flex-direction: column;
+}
+
+.cht2 p{
+    color: #9f9e9e;
+    display: flex;
+   justify-content: flex-end;
+   padding-right: 1rem;
+}
+
+.cht2 h4{
+    width: 70%;
+    height: 4rem;
+    background-color: #f2f2f2;
+    margin: 0.5rem;
+    padding: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 8rem;
+}
+
+.cht3{
+    margin: 1rem;
+}
+
+.cht3 p{
+    color: #9f9e9e;
+}
+
+.cht3 h4{
+    width: 20%;
+    height: 2.5rem;
+    background-color: #d1dcea;
+    margin: 0.5rem;
+    padding: 1.6%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cht4 h4{
+    width: 50%;
+    height: 3rem;
+    background-color: #ffc2c1;
+    padding: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 14rem;
+}
+
+footer{
+    border-top: 0.1rem solid gray;
+    display: flex;
+    margin: 0 1rem;
+}
+
+textarea{
+    height: 3.5rem;
+    border: none;
+    flex-grow: 1;
+}
+
+.send{
+    width: 5rem;
+    padding: 1rem 0 0 2rem;
+    color: #5d91dd;
+}
+
+#area{
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
